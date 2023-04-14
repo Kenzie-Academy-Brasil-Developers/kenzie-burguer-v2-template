@@ -4,10 +4,10 @@ import { StyledForm } from '../../../styles/form';
 
 const RegisterForm = () => (
   <StyledForm>
-    <Input />
-    <Input />
-    <Input />
-    <Input />
+    <Input id='name' />
+    <Input id='email' />
+    <Input id='passwors' />
+    <Input id='confirmPassword' />
     <StyledButton $buttonSize='default' $buttonStyle='gray'>
       Cadastrar
     </StyledButton>

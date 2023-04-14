@@ -4,8 +4,8 @@ import Input from '../Input';
 
 const LoginForm = () => (
   <StyledForm>
-    <Input />
-    <Input />
+    <Input id='login' />
+    <Input id='senha' />
     <StyledButton $buttonSize='default' $buttonStyle='green'>
       Entrar
     </StyledButton>

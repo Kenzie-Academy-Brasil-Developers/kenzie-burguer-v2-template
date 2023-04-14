@@ -39,6 +39,7 @@ export const StyledTitle = styled(BaseTitle)<IStyledTitleProps>`
         `;
 
       case 'four':
+      default:
         return css`
           font-size: 1rem;
           font-weight: 400;
