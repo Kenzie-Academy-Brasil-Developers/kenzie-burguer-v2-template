@@ -25,6 +25,7 @@ export const StyledInputContainer = styled.div`
     width: 100%;
     font-size: 1rem;
     padding: 0.9375rem;
+    color: ${({ theme }) => theme.colors.gray600};
   }
 
   label {
@@ -38,6 +39,7 @@ export const StyledInputContainer = styled.div`
     align-items: center;
 
     font-size: 1rem;
+    color: ${({ theme }) => theme.colors.gray600};
     transition: top 0.5s, left 0.3s ease-out;
   }
 
